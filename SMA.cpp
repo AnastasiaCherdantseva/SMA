@@ -31,7 +31,6 @@ int main()
 	deque<double> p;
 	deque<double> pSMA;
 	int k = 8;
-	cout << "LIST" << endl;
 	for (int i = 0; i < 1000000; i++)
 	{
 		p.push_back(double(rand() % 100000) / double(rand() % 100+1));
